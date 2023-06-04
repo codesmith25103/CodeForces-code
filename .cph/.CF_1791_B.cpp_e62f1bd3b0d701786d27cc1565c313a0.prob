@@ -1,0 +1,1 @@
+{"name":"Local: CF_1791_B","url":"/home/sankalp/C++/CF_1791_B.cpp","tests":[{"id":1683131901831,"input":"7\n7\nUUURDDL\n2\nUR\n8\nRRRUUDDD\n3\nLLL\n4\nDUUR\n5\nRUDLL\n11\nLLLLDDRUDRD\n","output":"YES\nYES\nNO\nNO\nYES\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1791_B.cpp","group":"local","local":true}

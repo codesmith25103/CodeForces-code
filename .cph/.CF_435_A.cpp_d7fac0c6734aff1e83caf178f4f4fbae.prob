@@ -1,0 +1,1 @@
+{"name":"Local: CF_435_A","url":"/home/sankalp/C++/CF_435_A.cpp","tests":[{"id":1684214759276,"input":"4 3\n2 3 2 1\n","output":"3"},{"id":1684214878538,"input":"3 4\n1 2 1\n","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_435_A.cpp","group":"local","local":true}

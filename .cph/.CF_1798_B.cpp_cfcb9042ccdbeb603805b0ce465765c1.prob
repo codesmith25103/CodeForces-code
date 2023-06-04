@@ -1,0 +1,1 @@
+{"name":"Local: CF_1798_B","url":"/home/sankalp/C++/CF_1798_B.cpp","tests":[{"id":1683795138516,"input":"3\n3\n4\n1 2 4 8\n3\n2 9 1\n2\n1 4\n2\n2\n1 2\n2\n2 1\n4\n4\n1 2 3 4\n1\n1\n1\n4\n1\n3","output":"8 2 1 \n-1\n2 1 4 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1798_B.cpp","group":"local","local":true}

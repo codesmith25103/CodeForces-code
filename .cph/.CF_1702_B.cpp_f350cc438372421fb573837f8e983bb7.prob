@@ -1,0 +1,1 @@
+{"name":"Local: CF_1702_B","url":"/home/sankalp/C++/CF_1702_B.cpp","tests":[{"id":1685130316585,"input":"6\nlollipops\nstringology\nabracadabra\ncodeforces\ntest\nf","output":"2\n4\n3\n4\n1\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1702_B.cpp","group":"local","local":true}

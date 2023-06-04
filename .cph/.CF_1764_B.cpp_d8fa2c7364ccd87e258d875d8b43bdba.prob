@@ -1,0 +1,1 @@
+{"name":"Local: CF_1764_B","url":"/home/sankalp/C++/CF_1764_B.cpp","tests":[{"id":1683701744047,"input":"2\n2\n1 2\n3\n5 10 25","output":"2\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1764_B.cpp","group":"local","local":true}

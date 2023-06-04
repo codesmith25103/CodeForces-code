@@ -1,0 +1,1 @@
+{"name":"Local: CF_706_A","url":"/home/sankalp/C++/CF_706_A.cpp","tests":[{"id":1685683029252,"input":"5\n3 10 8 6 11\n4\n1\n10\n3\n11\n","output":"0\n4\n1\n5\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_706_A.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: CF_1674_C","url":"/home/sankalp/C++/CF_1674_C.cpp","tests":[{"id":1685033236388,"input":"3\naaaa\na\naa\nabc\na\nb","output":"1\n-1\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1674_C.cpp","group":"local","local":true}

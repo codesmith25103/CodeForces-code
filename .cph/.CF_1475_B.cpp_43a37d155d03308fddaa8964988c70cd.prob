@@ -1,0 +1,1 @@
+{"name":"Local: CF_1475_B","url":"/home/sankalp/C++/CF_1475_B.cpp","tests":[{"id":1685431523373,"input":"5\n1\n4041\n4042\n8081\n8079\n","output":"NO\nYES\nYES\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1475_B.cpp","group":"local","local":true}

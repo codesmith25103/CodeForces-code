@@ -1,0 +1,1 @@
+{"name":"Local: CF_122_A","url":"/home/sankalp/C++/CF_122_A.cpp","tests":[{"id":1685553879156,"input":"47","output":"YES"},{"id":1685553921881,"input":"16","output":"YES"},{"id":1685553929359,"input":"50","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_122_A.cpp","group":"local","local":true}

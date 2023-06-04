@@ -1,0 +1,1 @@
+{"name":"Local: CF_1491_D1","url":"/home/sankalp/C++/CF_1491_D1.cpp","tests":[{"id":1683987393361,"input":"1\n5 \n1 2 3 4 5","output":"2\n3 1 4 2 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1491_D1.cpp","group":"local","local":true}

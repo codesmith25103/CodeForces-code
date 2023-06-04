@@ -1,0 +1,1 @@
+{"name":"Local: CF_1837_C","url":"/home/sankalp/C++/CF_1837_C.cpp","tests":[{"id":1685039685083,"input":"4\n??01?\n10100\n1??10?\n0?1?10?10\n","output":"00011\n10100\n111101\n011110010\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1837_C.cpp","group":"local","local":true}
