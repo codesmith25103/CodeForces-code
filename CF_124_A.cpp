@@ -14,7 +14,7 @@ int main()
         {
             cout<<n-a<<endl;
         }
-        else 
+        else    
         {
             cout<<b+1<<endl;
         }
