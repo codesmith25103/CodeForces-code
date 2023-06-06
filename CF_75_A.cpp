@@ -6,7 +6,6 @@ int main()
     cin.tie(0);cin.sync_with_stdio(0);
     cout.tie(0);cout.sync_with_stdio(0);
     int t = 1;
-    cin >> t;
     while (t--)
     {
         int num1, num2;
@@ -34,7 +33,7 @@ int main()
         {
             if(str5[i]!='0')
             {
-                str6.push_back(str5[i])
+                str6.push_back(str5[i]);
             }
         }
         int num3=stoi(str3);

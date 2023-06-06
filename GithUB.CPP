@@ -16,7 +16,7 @@ int main()
         cin>>vec[i];
     }
     sort(vec.begin(), vec.end());
-    int rem=size-k;
+    int rem=size-x;
     if(rem==0)
     {
         cout<<vec[0]<<endl;
