@@ -1,0 +1,1 @@
+{"name":"Local: CF_1840_B","url":"/home/sankalp/C++/CF_1840_B.cpp","tests":[{"id":1686119242346,"input":"5\n1 2\n2 1\n2 2\n10 2\n179 100\n","output":"2\n2\n3\n4\n180\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1840_B.cpp","group":"local","local":true}

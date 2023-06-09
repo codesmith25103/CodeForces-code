@@ -1,20 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-
 void solve()
 {
-    int n, m;
-    cin>>n>>m;
-    vector<vector<int>> vec(n, vector<int>(m, 0));
-    for(int i=0; i<n; i++)
+    int num;
+    cin>>num;
+    int i=2;
+    int j=num-3;
+    while(i<j)
     {
-        for(int j=0; j<m; j++)
+        if(__gcd(i, j)==1)
         {
-            cin>>vec[i][j];
+            cout<<i<<" "<<j<<" "<<1<<endl;
+            return;
         }
+        i++;
+        j--;
     }
 }
+
 int main()
 {
     cin.tie(0);cin.sync_with_stdio(0);

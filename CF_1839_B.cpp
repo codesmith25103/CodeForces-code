@@ -19,10 +19,12 @@ int main()
             int e1, e2;
             cin>>e1>>e2;
             pair<int, int> p1={e1, e2};
+            // aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuclmgmqfvnbgtapekouga
             vec.push_back(p1);
         }
         sort(vec.begin(), vec.end(), sort1);
         
     }
+
     return 0;
 }
