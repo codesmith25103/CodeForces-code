@@ -1,0 +1,1 @@
+{"name":"Local: CF_1843_A","url":"/home/sankalp/C++/CF_1843_A.cpp","tests":[{"id":1687271997345,"input":"5\n+X+\nOXO\nOX.\nO+.\n+OX\nX+O\n.XO\nOX.\n+++\nO.+\nX.O\n+..\n.++\nX.O\n+..\n","output":"X\nO\n+\nDRAW\nDRAW\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1843_A.cpp","group":"local","local":true}

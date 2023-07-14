@@ -1,0 +1,1 @@
+{"name":"Local: CF_1324_C","url":"/home/sankalp/C++/CF_1324_C.cpp","tests":[{"id":1688732508444,"input":"6\nLRLRRLL\nL\nLLR\nRRRR\nLLLLLL\nR","output":"3\n2\n3\n1\n7\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1324_C.cpp","group":"local","local":true}

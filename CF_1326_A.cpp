@@ -9,24 +9,20 @@ int main()
     cin >> t;
     while (t--)
     {
-        int n, k;
-        cin>>n>>k;
-        if(k>n)
+        int num;
+        cin>>num;
+        if(num==1)
         {
-            cout<<"NO"<<endl;
+            cout<<-1<<endl;
         }
-        else 
+        else
         {
-            n=n-(k-1);
-            if(n%2==0)
+            for(int i=0; i<num-1; i++)
             {
-                cout<<"NO"<<endl;
+                cout<<"3";
             }
-            else
-            {
-                cout<<"YES"<<endl;
-            }
-        }  
+            cout<<"4"<<endl;
+        }
     }
     return 0;
 }

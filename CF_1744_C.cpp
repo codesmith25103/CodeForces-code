@@ -1,52 +1,34 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-int main()
+void solve()
 {
-    cin.tie(0);cin.sync_with_stdio(0);
-    cout.tie(0);cout.sync_with_stdio(0);
-    int t = 1;
-    cin >> t;
-    while (t--)
-    {
-        int size;
+     int size;
         cin>>size;
-        char x;
-        cin>>x;
+        char res;
+        cin>>res;
         string str;
-        int ans=-1;
-        int count=0;
         cin>>str;
-        int j=-1, start=-1, i=0;
-        while(i!=start)
+        if(res=='g')
         {
-            if(str[i]==x)
+            cout<<0<<endl;
+            return;
+        }
+        int flag=1;
+        int i=0;
+        int point=0;
+        while(true)
+        {
+            if(str[i]==res && flag==1)
             {
-                if(start==-1)
-                {
-                    start=i;
-                    j=i;
-                }
-                else 
-                {
-                    if(j==-1)
-                    {
-                        j=i;
-                    }
-                }
-                count++;
+                flag=0;
             }
-            else if(str[i]=='g')
+            if(flag==0)
             {
-                ans=max(count, ans);
-                j=-1;
-                count=0;
-            }
-            else 
-            {
-                if(j!=-1)
+                if(str[i]=='g')
                 {
-                    count++;
+                    point=i;
+                    break;
                 }
             }
             i++;
@@ -55,7 +37,45 @@ int main()
                 i=0;
             }
         }
+        i=point+1;
+        if(i==size)
+        {
+            i=0;
+        }
+        flag=1;
+        int ans=0;
+        int count=1;
+        while(flag!=2)
+        {
+            if(str[i]=='g')
+            {
+                ans=max(ans, count);
+                count=0;
+                i++;
+                continue;
+            }
+            i++;
+            if(i==size)
+            {
+                i=0;
+            }
+            count++;
+            if(i==point)
+            {
+                flag=2;
+            }
+        }
         cout<<ans<<endl;
+}
+int main()
+{
+    cin.tie(0);cin.sync_with_stdio(0);
+    cout.tie(0);cout.sync_with_stdio(0);
+    int t = 1;
+    cin >> t;
+    while (t--)
+    {
+       solve();
     }
     return 0;
 }

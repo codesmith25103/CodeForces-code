@@ -4,16 +4,16 @@ typedef long long ll;
 void solve()
 {
     cout<<setprecision(10);
-    int n, base, height;
+    double n, base, height;
     cin>>n>>base>>height;
-    vector<int> vec(n);
+    vector<double> vec(n);
     for(int i=0; i<n; i++)
     {
         cin>>vec[i];
     }
     sort(vec.begin(), vec.end());
-    int q=0;
-    vector<int> vec2;
+    double q=0;
+    vector<double> vec2;
     for(int i=0; i<n; i++)
     {
         if(q>vec[i])
@@ -41,7 +41,6 @@ int main()
     cout.tie(0);cout.sync_with_stdio(0);
     int t = 1;
     cin >> t;
-    
     while (t--)
     {
         solve();

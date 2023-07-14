@@ -1,0 +1,1 @@
+{"name":"Local: CN","url":"/home/sankalp/C++/CN.cpp","tests":[{"id":1687009416060,"input":"2\n5 7\n101 12 57 72 3\n3\n1 19\n2 170\n4 2\n4 99\n12 88 32 200\n2\n1 9\n3 11037","output":"36 53 52 \n3 113"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CN.cpp","group":"local","local":true}

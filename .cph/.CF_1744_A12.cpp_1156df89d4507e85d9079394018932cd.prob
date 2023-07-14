@@ -1,0 +1,1 @@
+{"name":"Local: CF_1744_A12","url":"/home/sankalp/C++/CF_1744_A12.cpp","tests":[{"id":1687586410964,"input":"3\n2\n11\n5\n01101\n5\n10001\n","output":"-\n+-++\n+++-\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/C++/CF_1744_A12.cpp","group":"local","local":true}

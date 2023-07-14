@@ -6,27 +6,26 @@ int main()
     cin.tie(0);cin.sync_with_stdio(0);
     cout.tie(0);cout.sync_with_stdio(0);
     int t = 1;
-    cin >> t;
+    cin>>t;
     while (t--)
     {
-        int n, k;
-        cin>>n>>k;
-        if(k>n)
+        string str;
+        cin>>str;
+        int count=1;
+        int ans=0;
+        for(int i=0; i<str.size(); i++)
         {
-            cout<<"NO"<<endl;
-        }
-        else 
-        {
-            n=n-(k-1);
-            if(n%2==0)
+            if(str[i]=='L')
             {
-                cout<<"NO"<<endl;
+                count++;
+                ans=max(count, ans);
             }
             else
             {
-                cout<<"YES"<<endl;
+                count=1;
             }
-        }  
+        }
+        cout<<max(ans, count)<<endl;
     }
     return 0;
 }
